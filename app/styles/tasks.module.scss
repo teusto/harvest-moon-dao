@@ -24,9 +24,33 @@
                 border: 2px solid #A6CF98;
                 border-radius: 8px;
                 width: 30%;
-                aspect-ratio: 14/4;
+                aspect-ratio: 14/2;
                 margin-right: 1.5rem;
                 box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+                padding: .55rem;
+                .container{
+                    //border: 2px solid red;
+                    .title{
+                        font-weight: bold;
+                        font-size: 1.25rem;
+                        color: #e8ffef;
+                    }
+                    .info{
+                        display: flex;
+                        //border: 2px solid red;
+                        p{
+                            font-weight: bold;
+                            font-size: .85rem;
+                            margin-right: .55rem;
+                            color: #A6CF98;
+                            span{
+                                color: #e8ffef;
+                                font-weight: normal;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

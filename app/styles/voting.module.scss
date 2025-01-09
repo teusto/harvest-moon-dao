@@ -8,32 +8,42 @@
         //border: 2px solid red;
         .options_list{
             display: flex;
+            flex-flow: row wrap;
+            //border: 2px solid red;
             .option_card {
                 border: 2px solid #A6CF98;
                 border-radius: 8px;
                 width: 30%;
-                aspect-ratio: 14/4;
+                aspect-ratio: 12/4;
                 margin-right: 1.5rem;
+                margin-bottom: 1.5rem;
                 box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 .card_top{
-                    background-color: #A6CF98;
+                    background-color: #A6CF9899;
+                    padding: .25rem .5rem;
+                    font-weight: bold;
+                    font-size: 1.15rem;
                 }
                 .card_bottom{
-                    padding: .25rem;
+                    padding: .25rem .5rem;
                     //border: 2px solid red;
                     display: flex;
                     justify-content: space-between;
                     .card_left{
+                        display: flex;
                         //border: 2px solid red;
                         width: 85%;
+                        align-items: flex-end;
                         button{
                             box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
                             align-items: center;
                             background-color: #A6CF98;
-                            padding: .25rem 1.25rem;
+                            padding: .25rem 1.55rem;
+                            border-radius: 8px;
+                            font-weight: bold;
                         }
                     }
                     .card_right{
@@ -43,13 +53,18 @@
                         padding: .25rem .25rem;
                         border: 2px solid #A6CF98;
                         border-radius: 8px;
-                        background-color: #A6CF98;
+                        background-color: #A6CF9899;
                         .round{
-                            background-color: #7d9d7234;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #7d9d72;
                             width: 30px;
                             height: 30px;
                             border-radius: 50%;
                             text-align: center;
+                            font-size: .85rem;
+                            font-weight: bold;
                         }
                     }
                 }
